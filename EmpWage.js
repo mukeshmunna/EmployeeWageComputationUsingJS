@@ -45,3 +45,23 @@ empCheck = Math.floor(Math.random() * 10) % 3;
 totalEmphrs = getWorkingHours(empCheck);
 let totalEmpwage = emphrs * WAGE_PER_HR;
 console.log(totalEmpwage);
+
+//UC-4
+totalEmphrs = 0;
+for (let i = 0; i < NUM_OF_WORKING_DAYS; i++) {
+    empCheck = Math.floor(Math.random() * 10) % 3;
+    getWorkingHours(empCheck);
+    totalEmphrs += emphrs;
+}
+totalEmpwage = totalEmphrs * WAGE_PER_HR;
+console.log(totalEmpwage);
+
+//UC4
+let  hrs=0;
+for(let i=0;i<NUM_OF_WORKING_DAYS;i++)
+{
+    empcheck=Math.floor(Math.random()*10)%3;
+    hrs+=getworkinghrs(empcheck);
+}
+totalempwage=hrs*WAGE_PER_HR;
+console.log(totalempwage);
