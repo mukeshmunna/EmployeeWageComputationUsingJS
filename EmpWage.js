@@ -39,3 +39,9 @@ function getWorkingHours(empCheck) {
     }
   }
   
+  
+let totalEmphrs = 0;
+empCheck = Math.floor(Math.random() * 10) % 3;
+totalEmphrs = getWorkingHours(empCheck);
+let totalEmpwage = emphrs * WAGE_PER_HR;
+console.log(totalEmpwage);
