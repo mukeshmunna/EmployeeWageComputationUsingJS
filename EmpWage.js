@@ -27,3 +27,15 @@ switch (empCheck) {
 }
 let empWage = emphrs * WAGE_PER_HR;
 console.log(empWage);
+
+//UC3
+function getWorkingHours(empCheck) {
+    switch (empCheck) {
+        case IS_PART_TIME: emphrs = PART_TIME_HR;
+            break;
+        case IS_FULL_TIME: emphrs = FULL_TIME_HR
+            break;
+        case IS_ABSENT: emphrs = IS_ABSENT;
+    }
+  }
+  
